@@ -68,12 +68,12 @@
                     <div>
                         <img src="img/kowalinski5.jpg" alt="William_Kowalinski"
                             class="rounded-circle float-left mr-4 pb-3 pt-3" width="110px">
-                        <p class="text-left ml-5 h5"> Fort d'une expérience dans différents domaines et notamment 8 ans en comptabilité, je tente l'aventure
-                            de partir vivre à l'île de la Réunion.<br> Ainsi, après diverses rencontres et expériences enrichissantes, je finis par découvrir le
-                            développement web qui est très passionnant et prenant. Je me forme donc en autodidacte puis suis une formation de 3 mois de développeur
-                            web. Mais cela ne me suffit pas, je veux continuer à apprendre, et pour cela je souhaite démarrer un contrat de professionnalisation
-                            en alternance en France métropolitaine dès le mois de septembre. Je reste bien évidemment ouvert à tous autres types de contrats, même
-                            un simple stage. Toute expérience est bonne à prendre.
+                        <p class="text-left ml-5 h5">Après différentes expériences dans la comptabilité ou la préparation de commande, qui ont développé en moi des 
+                        qualités d'adaptation et d'analyse, j'ai découvert l'île de la Réunion et d'autres pays à travers des voyages où j'y ai accru mon ouverture 
+                        d'esprit et mon optimisme mais également appris le partage. Aujourd'hui, en tant que développeur web, je souhaite approfondir ma formation 
+                        avec un contrat en alternance.<br>Après avoir assimilé des technologies plutôt Front-end avec Html, Css, Bootstrapp et Javascript, je souhaite
+                         approfondir ce dernier en étudiant ses frameworks comme React et Vue, mais également Node pour la partie Back-end dans le but de devenir 
+                         fullstack. Je reste également attentif à Java et Python qui sont très intéressants et ont une grande communauté.
                         </p>
                     </div>
                 </div>
@@ -217,6 +217,20 @@
                 </div>
                 <span class="fill" data-percentage="5"></span>
             </div>
+
+            <div class="col-lg-1 col-md-1 col-sm-1 col-1"></div>
+
+            <div class="col-lg-1 col-md-1 col-sm-1 col-1">
+                <h6>Angular</h6>
+            </div>
+
+            <div id="bar10" class="barfiller mt-4 mb-4">
+                <div class="tipWrap">
+                    <span class="tip"></span>
+                </div>
+                <span class="fill" data-percentage="5"></span>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-1 col-1"></div>
 </div>
 
     </div>
@@ -235,6 +249,7 @@
             $('#bar7').barfiller({ barColor: '#39b3ff', duration: 3000 });
             $('#bar8').barfiller({ barColor: '#39b3ff', duration: 3000 });
             $('#bar9').barfiller({ barColor: '#39b3ff', duration: 3000 });
+            $('#bar10').barfiller({ barColor: '#39b3ff', duration: 3000 });
 
 
         });
@@ -273,6 +288,25 @@
         <h1 class="text-center pb-5" >Formation</h1>
         <div class="row">
             <div class="main-timeline">
+            <div class="timeline">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-content">
+                        <span class="date">Mars 2019 à aujourd'hui,
+                           En autodidacte, Lyon</span>
+                        <h5 class="title">Formations Udemy (by John Taieb) :</h5>
+                        <ul class="description"></ul>
+                        <li>Développement moderne Javascript et ES6, ES7.</li>
+                        <li>Vraiment bien comprendre Javascript.</li>
+                        <li>Formation complète développeur web.</li>
+                        <br>
+                        <h5 class="title">Formations OpenclassRooms :</h5>
+                        <ul class="description"></ul>
+                        <li>Développez des applications web avec Angular</li>
+                        <li>Apprenez à programmer avec Javascript.</li>
+                        <li>Gérer votre code avec Git et Github.</li>                          
+                    </div>
+                </div>
+
                 <div class="timeline">
                     <div class="timeline-icon"></div>
                     <div class="timeline-content">
@@ -304,7 +338,7 @@
                             En autodidacte, Ile de la Réunion</span>
                         <h5 class="title">Formation Développeur Web</h5>
                         <p class="description">
-                            Apprentissage du CSS / HTML / JAVASCRIPT sur les sites <br>Pierre-Giraud.com, Udemy et
+                            Apprentissage du  HTML / CSS sur les sites <br>Pierre-Giraud.com, Udemy et
                             OpenClassRoom.
                         </p>
                     </div>
