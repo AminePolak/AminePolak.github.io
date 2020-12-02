@@ -231,7 +231,25 @@
                 <span class="fill" data-percentage="5"></span>
             </div>
             <div class="col-lg-1 col-md-1 col-sm-1 col-1"></div>
-</div>
+            
+        </div>
+
+        <div class="row">
+            <div class="col-lg-1 col-md-1 col-sm-1 col-1"></div>
+
+            <div class="col-lg-1 col-md-1 col-sm-1 col-1">
+                <h6>Java</h6>
+            </div>
+            <div id="bar11" class="barfiller mt-4 mb-4">
+                <div class="tipWrap">
+                    <span class="tip"></span>
+                </div>
+                <span class="fill" data-percentage="5"></span>
+            </div>
+
+            <div class="col-lg-1 col-md-1 col-sm-1 col-1"></div>
+            
+        </div>
 
     </div>
 
@@ -250,22 +268,14 @@
             $('#bar8').barfiller({ barColor: '#39b3ff', duration: 3000 });
             $('#bar9').barfiller({ barColor: '#39b3ff', duration: 3000 });
             $('#bar10').barfiller({ barColor: '#39b3ff', duration: 3000 });
+            $('#bar11').barfiller({ barColor: '#39b3ff', duration: 3000 });
+
 
 
         });
 
     </script>
 
-    <!--[if lt IE 9 ]>
-
-<![endif]-->
-
-    <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
- chromium.org/developers/how-tos/chrome-frame-getting-started -->
-    <!--[if lt IE 7 ]>
-<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
-<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
-<![endif]-->
     <script type="text/javascript">
 
         var _gaq = _gaq || [];
@@ -301,9 +311,10 @@
                         <br>
                         <h5 class="title">Formations OpenclassRooms :</h5>
                         <ul class="description"></ul>
-                        <li>Développez des applications web avec Angular</li>
                         <li>Apprenez à programmer avec Javascript.</li>
-                        <li>Gérer votre code avec Git et Github.</li>                          
+                        <li>Gérer votre code avec Git et Github.</li> 
+                        <li>Débutez la programmation avec Java</li>
+                        <li>Développez des applications web avec Angular</li>                         
                     </div>
                 </div>
 
@@ -384,6 +395,15 @@
         <h1 class="text-center pb-5">Expériences</h1>
 
         <div class="exp pb-3 pt-3 pl-5">
+            <span class="date_exp">Avril 2020 à juin 2020, Projet formation</span>
+            <h5 class="title_exp">Développeur Web</h5>
+            <p class="description_exp">
+            Projet "Jeu du serpent" de la formation développeur web/javascript sur Udemy (John Taïeb).
+            La totalité en JAVASCRIPT, puis migration vers ES6.
+            </p>
+        </div>
+
+        <div class="exp pb-3 pt-3 pl-5">
             <span class="date_exp">Février 2020 à mars 2020, Stage, Marrakech</span>
             <h5 class="title_exp">Développeur Web</h5>
             <p class="description_exp">
@@ -392,10 +412,11 @@
         </div>
     
         <div class="exp pb-3 pt-3 pl-5">
-            <span class="date_exp">Avril 2019 à Mai 2019, freelance</span>
+            <span class="date_exp">Avril 2019 à Mai 2019, Indépendant</span>
             <h5 class="title_exp">Développeur Web</h5>
             <p class="description_exp">
-                Création de mon site perso-portfolio.
+                Création de mon site perso-portfolio avec les les technologies HTML, CSS, responsivité en BOOTSTRAP, formulaire de contact en PHP et 
+                quelques fonctionnalités en JQUERY.
             </p>
         </div>
 
@@ -418,57 +439,40 @@
     </div>
 
     <!-- Portfolio -->
-    <div class="portfolio pt-5 pb-5" id="portfolio">
-        <div class="container">
-            <section>
-                <article>
-                    <div class="row">
-                        <div class="offset-md-3 col-md-6 portfolio-p">
-                            <h1>Portfolio</h1>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <!-- <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
-                                <li class="nav-item">
-                                    <a class="nav-link active bg-dark" id="pills-all" data-toggle="pill"
-                                        href="#pills-all" role="tab" aria-controls="pills-all"
-                                        aria-selected="true">All</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-dark" id="pills-webdesign-tab" data-toggle="pill"
-                                        href="#pills-webdesign" role="tab" aria-controls="pills-webdesign"
-                                        aria-selected="false">Web Design</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-dark" id="pills-branding-tab" data-toggle="pill"
-                                        href="#pills-branding" role="tab" aria-controls="pills-branding"
-                                        aria-selected="false">Branding</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-dark" id="pills-graphic-tab" data-toggle="pill"
-                                        href="#pills-graphic" role="tab" aria-controls="pills-graphic"
-                                        aria-selected="false">Graphic</a>
-                                </li>
-                            </ul> -->
-                            <div class="tab-content" id="pills-tabContent">
-                                <div class="tab-pane fade show active all-portfolio" id="pills-all" role="tabpanel"
-                                    aria-labelledby="pills-all-tab">
-                                    <a href="https://william-kowalinski.fr/"  onclick="window.open(this.href);return false;"><img src="img/portfolio.jpg" alt="portfolio1"></a>
-                                    <a href="https://aminepolak.github.io/Marrakech/"  onclick="window.open(this.href);return false;"><img src="img/marrakech.jpg" alt="portfolio1"></a>
-                                    <a href="https://aminepolak.github.io/jeu_serpent/"  onclick="window.open(this.href);return false;"><img src="img/serpentin.jpg" alt="portfolio1"></a>
-
-                                    <!--   <img src="img/portfolio4.jpg" alt="portfolio4">
-                                    <img src="img/portfolio5.jpg" alt="portfolio5">
-                                    <img src="img/portfolio6.jpg" alt="portfolio6"> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-            </section>
-        </div>
+    <div class="text-center pt-5 pb-5" id="portfolio">     
+        <h1 class="pb-5">Portfolio</h1>              
+        <ul class="row all-portfolio">
+            <li class="col pt-3 pb-3">
+                <a href="https://william-kowalinski.fr/"  onclick="window.open(this.href);return false;">
+                    <div class="image">
+                        <img src="img/portfolio.jpg" alt="portfolio1">
+                    </div>                    
+                    <p class="portfolio-description">Création de mon site perso-portfolio avec les les technologies HTML, CSS, responsivité en BOOTSTRAP,
+                         formulaire de contact en PHP et quelques fonctionnalités en JQUERY.
+                    </p>
+                </a>
+            </li> 
+            <li class="col pt-3 pb-3">
+                <a href="https://aminepolak.github.io/Marrakech/"  onclick="window.open(this.href);return false;">
+                    <div class="image">
+                        <img src="img/marrakech.jpg" alt="portfolio2">
+                    </div>                    
+                    <p class="portfolio-description">Création de la structure d'un site. (HTML, CSS, BOOTSTRAP, JQUERY, PHP).</p>
+                </a>
+            </li> 
+            <li class="col pt-3 pb-3">
+                <a href="https://aminepolak.github.io/jeu_serpent/"  onclick="window.open(this.href);return false;">
+                    <div class="image">
+                        <img src="img/serpentin.jpg" alt="portfolio3">
+                    </div>                    
+                    <p class="portfolio-description">Projet "Jeu du serpent" de la formation développeur web/javascript sur Udemy (John Taïeb). 
+                        La totalité en JAVASCRIPT, puis migration vers ES6.
+                    </p>
+                </a>
+            </li> 
+        </ul>
     </div>
+
 
     <!-- Contact -->
     <div class="contact pt-5 pb-5" id="contact">
@@ -503,11 +507,10 @@
                             </form>
                         </div>
                         <div class="col-md-4">
-                            <p>197 rue Marcel Mérieux,
-                                <br>Résidence Studio 7, studio A206
-                                <br>69007 Lyon</p>
                             <p>07 69 61 35 41</p>
                             <p>william.kowalinski@laposte.net</p>
+                            <p>Lyon</p>
+
                         </div>
                     </div>
                 </article>

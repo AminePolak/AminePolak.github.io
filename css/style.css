@@ -314,40 +314,50 @@ body{
 
 
  /* Portfolio */
-.portfolio{
-   text-align: center;
-   
-}
-
-.portfolio-p{
-   padding-bottom: 4em;
-   justify-content: center;
-}
-
- .all-portfolio img{
+.all-portfolio img{
    width:350px;
-   padding: 15px 15px 15px 15px;
 }
-/*
-.rating {
-   direction: rtl;
+.all-portfolio{
+   list-style: none;
 }
 
-.rating a {
-   color: #aaa;
-   text-decoration: none;
-   font-size: 1.5em;
-   transition: color .4s;
+.image{
+   width: 350px;
 }
 
-.rating a:hover,
-.rating a:focus,
-.rating a:hover ~ a,
-.rating a:focus ~ a {
-   color: rgb(12, 120, 182);
-   cursor: pointer;
+.portfolio-description{   
+   position: absolute;
+   color: white;
+   opacity: 0;
+   -webkit-transition: opacity .5s ease;
+   transition: opacity .5s ease;
 }
-*/
+
+.all-portfolio li div{
+   background: #061727;
+   margin: auto;
+}
+
+.all-portfolio p{
+   width: 350px;
+   margin: auto;
+   font-size: small;
+}
+
+.all-portfolio li a:hover img{   
+   opacity: 0.4;
+   -webkit-transition: opacity .5s ease;
+   transition: opacity .5s ease;
+}
+
+.all-portfolio li a:hover .portfolio-description{
+   opacity: 1;
+   top: 60%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+  
+}
+
 
  /* Contact */
 .contact{
