@@ -470,6 +470,16 @@
                     </p>
                 </a>
             </li> 
+            <li class="col pt-3 pb-3">
+                <a href="https://aminepolak.github.io/ProjetsJavascript-Quizz/"  onclick="window.open(this.href);return false;">
+                    <div class="image">
+                        <img src="img/quizz.jpg" alt="portfolio4">
+                    </div>                    
+                    <p class="portfolio-description">Formation "20 Projets en Javascript" de Enzo Ustariz sur la plateform Udemy. Crétion d'un petit questionnaire
+                     dynamique avec certaines animations en Javascript.
+                    </p>
+                </a>
+            </li> 
         </ul>
     </div>
 
