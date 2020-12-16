@@ -480,6 +480,16 @@
                     </p>
                 </a>
             </li> 
+            <li class="col pt-3 pb-3">
+                <a href="https://aminepolak.github.io/AppMeteo/"  onclick="window.open(this.href);return false;">
+                    <div class="image">
+                        <img src="img/meteo.jpg" alt="portfolio5">
+                    </div>                    
+                    <p class="portfolio-description">Formation "20 Projets en Javascript" de Enzo Ustariz sur la plateform Udemy.
+                        Crétion d'une application météo dynamique, avec géolocalisation, en javascript.
+                    </p>
+                </a>
+            </li> 
         </ul>
     </div>
 
