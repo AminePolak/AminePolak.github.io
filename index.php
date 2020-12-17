@@ -475,7 +475,7 @@
                     <div class="image">
                         <img src="img/quizz.jpg" alt="portfolio4">
                     </div>                    
-                    <p class="portfolio-description">Formation "20 Projets en Javascript" de Enzo Ustariz sur la plateform Udemy. Crétion d'un petit questionnaire
+                    <p class="portfolio-description">Formation "20 Projets en Javascript" de Enzo Ustariz sur la plateform Udemy. Création d'un petit questionnaire
                      dynamique avec certaines animations en Javascript.
                     </p>
                 </a>
@@ -486,7 +486,7 @@
                         <img src="img/meteo.jpg" alt="portfolio5">
                     </div>                    
                     <p class="portfolio-description">Formation "20 Projets en Javascript" de Enzo Ustariz sur la plateform Udemy.
-                        Crétion d'une application météo dynamique, avec géolocalisation, en javascript.
+                        Création d'une application météo dynamique avec gestion de données pour les prévisions, avec géolocalisation, en javascript. Appel d'une API météo
                     </p>
                 </a>
             </li> 
