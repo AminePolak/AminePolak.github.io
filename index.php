@@ -490,6 +490,7 @@
                     </p>
                 </a>
             </li> 
+<<<<<<< HEAD
             <li class="col pt-3 pb-3">
                 <a href="https://aminepolak.github.io/Pokedex/"  onclick="window.open(this.href);return false;">
                     <div class="image">
@@ -499,6 +500,8 @@
                      Pokedex en javascript, avec appel d'API, scroll infini, manipulation de DOM, moteur de recherche.</p>
                 </a>
             </li> 
+=======
+>>>>>>> 592b770b2e239831a703424b150845d404ed6ad8
         </ul>
     </div>
 
