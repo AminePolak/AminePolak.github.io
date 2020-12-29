@@ -490,18 +490,24 @@
                     </p>
                 </a>
             </li> 
-<<<<<<< HEAD
             <li class="col pt-3 pb-3">
                 <a href="https://aminepolak.github.io/Pokedex/"  onclick="window.open(this.href);return false;">
                     <div class="image">
                         <img src="img/pokedex.jpg" alt="portfolio6">
                     </div>                    
-                    <p class="portfolio-description">Formation "20 Projets en Javascript" de Enzo Ustariz sur la plateform Udemy.Crétion d'une application
+                    <p class="portfolio-description">Formation "20 Projets en Javascript" de Enzo Ustariz sur la plateform Udemy. Création d'une application
                      Pokedex en javascript, avec appel d'API, scroll infini, manipulation de DOM, moteur de recherche.</p>
                 </a>
             </li> 
-=======
->>>>>>> 592b770b2e239831a703424b150845d404ed6ad8
+            <li class="col pt-3 pb-3">
+                <a href="https://aminepolak.github.io/ToDoListJs/"  onclick="window.open(this.href);return false;">
+                    <div class="image">
+                        <img src="img/toDoList.jpg" alt="portfolio7">
+                    </div>                    
+                    <p class="portfolio-description">Formation "20 Projets en Javascript" de Enzo Ustariz sur la plateform Udemy. Création d'une application
+                     To Do List en javascript.</p>
+                </a>
+            </li> 
         </ul>
     </div>
 
