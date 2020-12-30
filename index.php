@@ -508,6 +508,15 @@
                      To Do List en javascript.</p>
                 </a>
             </li> 
+            <li class="col pt-3 pb-3">
+                <a href="https://aminepolak.github.io/Pomodoro/"  onclick="window.open(this.href);return false;">
+                    <div class="image">
+                        <img src="img/pomodoro.jpg" alt="portfolio8">
+                    </div>                    
+                    <p class="portfolio-description">Formation "20 Projets en Javascript" de Enzo Ustariz sur la plateform Udemy. Création d'une application
+                     Pomodoro en javascript, avec des timers.</p>
+                </a>
+            </li> 
         </ul>
     </div>
 
